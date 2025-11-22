@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Prince will</title>
+  <link rel="stylesheet" href="Prince.css">
+</head>
+<body>
+  <header class="head">
+
+   <div class="circle"> 
+   <img src="benin.png">  </div>
+   <h3 class="uni">University Of Benin</h3>
+
+   
+  </header>
+  
+  <main class="main">
+    
+    <div class="Mcontainer">
+      
+      <div class="login"> <h3>Login </h3></div>
+
+  
+      <div class="input">
+        
+        <div class="user">
+          <p>User ID</p>
+        </div>
+      
+        <div class="textboxDiv">
+        <input type="textbox">
+        </div>
+        <br>
+        
+       <div class="user">
+          <p>Password</p>
+        </div>
+      
+    <div class="textboxDiv">
+        <input type="password">
+        </div>
+        
+        <br>
+    <div class="user">
+          <p>CAPTCHA Challenge</p>
+        </div>
+    
+         <div class="user">
+          <p id="captcha"></p>
+        </div>
+      <div class="textboxDiv">
+      <input type="text" id="captchaInput" placeholder="Enter characters above">
+      </div>
+        <div class="but">
+ <button onclick="checkCaptcha()" id="clickme">Login</button> 
+        </div>
+     <br>
+       <p id="message"></p>
+     <br>
+        <p id="dear"></p>
+      </div>
+      
+
+    </div>
+    
+  </main>
+  
+  <footer class="foot">
+    
+  </footer>
+  <script src="Prince.js"></script>
+</body>
+</html>
